@@ -1,0 +1,103 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.15.3
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Type check
+        run: pnpm type-check
+        
+      - name: Lint
+        run: pnpm lint
+        
+      - name: Run tests
+        run: pnpm test -- --run
+        
+      - name: Test coverage
+        run: pnpm test:coverage
+        
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage/lcov.info
+          fail_ci_if_error: false
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.15.3
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build
+        run: pnpm build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://preview.example.com
+
+  deploy-preview:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to Vercel Preview
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
+
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to Vercel Production
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
+          working-directory: ./
