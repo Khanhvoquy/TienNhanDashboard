@@ -1,0 +1,39 @@
+{
+"Common": {
+"loading": "Summoning spiritual energy...",
+"error": "Heart demon intrusion!",
+"save": "Save",
+"cancel": "Cancel",
+"search": "Search cultivators..."
+},
+"Dashboard": {
+"title": "Sect Dashboard",
+"welcome": "Welcome, Daoist",
+"stats": {
+"total_xp": "Total Spiritual Power",
+"tickets_resolved": "Requests Resolved",
+"sla_compliance": "SLA Compliance",
+"kb_contributions": "Manual Contributions"
+}
+},
+"Realm": {
+"fan_nhan": "Mortal",
+"luyen_khi": "Qi Condensation",
+"truc_co": "Foundation Establishment",
+"kim_dan": "Golden Core",
+"nguyen_anh": "Nascent Soul",
+"hoa_then": "Deity Transformation",
+"hop_the": "Integration",
+"dai_thua": "Mahayana",
+"tien_nhan": "Immortal"
+},
+"Ticket": {
+"priority_low": "Low",
+"priority_med": "Medium",
+"priority_high": "High",
+"priority_urgent": "Urgent",
+"status_open": "Open",
+"status_progress": "In Progress",
+"status_done": "Done"
+}
+}

@@ -1,0 +1,39 @@
+{
+"Common": {
+"loading": "Đang triệu hồi linh khí...",
+"error": "Tâm ma xâm nhập!",
+"save": "Lưu trữ",
+"cancel": "Hủy bỏ",
+"search": "Tìm kiếm đạo hữu..."
+},
+"Dashboard": {
+"title": "Bảng Điều Khiển Tông Môn",
+"welcome": "Chào mừng đạo hữu",
+"stats": {
+"total_xp": "Tổng Linh Lực",
+"tickets_resolved": "Yêu Cầu Hoàn Thành",
+"sla_compliance": "Tỷ Lệ SLA",
+"kb_contributions": "Đóng Góp Bí Kíp"
+}
+},
+"Realm": {
+"fan_nhan": "Phàm Nhân",
+"luyen_khi": "Luyện Khí",
+"truc_co": "Trúc Cơ",
+"kim_dan": "Kim Đan",
+"nguyen_anh": "Nguyên Anh",
+"hoa_than": "Hóa Thần",
+"hop_the": "Hợp Thể",
+"dai_thua": "Đại Thừa",
+"tien_nhan": "Tiên Nhân"
+},
+"Ticket": {
+"priority_low": "Thấp",
+"priority_med": "Trung Bình",
+"priority_high": "Cao",
+"priority_urgent": "Khẩn Cấp",
+"status_open": "Mới",
+"status_progress": "Đang Xử Lý",
+"status_done": "Hoàn Thành"
+}
+}

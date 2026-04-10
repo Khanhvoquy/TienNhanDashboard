@@ -1,5 +1,5 @@
 :root {
-  /* Xianxia Dark Theme Palette /
+  /* Xianxia Dark Theme Palette */
   --color-bg: #0f172a;       / Slate 900 - Bầu trời đêm /
   --color-surface: #1e293b;  / Slate 800 - Đá tảng /
   --color-primary: #38bdf8;  / Sky 400 - Linh khí /
@@ -11,7 +11,42 @@
   /* Gradients */
   --gradient-aura: radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.15), transparent 70%);
   --gradient-sword: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
-  /* Fonts /
+  /* Fonts */
   --font-inter: 'Inter', sans-serif;
   --font-cinzel: 'Cinzel', serif; / Cần load từ Google Fonts nếu dùng */
+/*Core Colors - Ngũ Hành Sắc */
+--color-bg-deep: #050b14; / Hư Không /
+--color-bg-surface: #0f172a; / Đá Tảng /
+--color-bg-panel: rgba(30, 41, 59, 0.7); / Kính Linh */
+/* Elemental Colors */
+--color-element-wood: #10b981; / Mộc - Sinh Trưởng /
+--color-element-fire: #f43f5e; / Hỏa - Công Phá /
+--color-element-earth: #d97706; / Thổ - Phòng Thủ /
+--color-element-metal: #e2e8f0; / Kim - Sắc Bén /
+--color-element-water: #3b82f6; / Thủy - Mềm Dẻo */
+/* Realm Colors */
+--color-realm-fan: #94a3b8;
+--color-realm-luyen-khi: #34d399;
+--color-realm-truc-co: #60a5fa;
+--color-realm-kim-dan: #fbbf24;
+--color-realm-nguyen-anh: #a78bfa;
+--color-realm-hoa-than: #f472b6;
+--color-realm-hop-the: #fb923c;
+--color-realm-dai-thua: #f87171;
+--color-realm-tien: #ffffff;
+/* Typography */
+--font-primary: 'Inter', system-ui, sans-serif;
+--font-display: 'Cinzel', serif; / Giả lập font cổ trang */
+/* Effects */
+--shadow-glow-sm: 0 0 10px rgba(52, 211, 153, 0.3);
+--shadow-glow-md: 0 0 20px rgba(52, 211, 153, 0.5);
+--shadow-glow-lg: 0 0 40px rgba(52, 211, 153, 0.7);
+--radius-sm: 0.375rem;
+--radius-md: 0.5rem;
+--radius-lg: 1rem;
+--radius-full: 9999px;
+}
+.dark {
+--color-bg-deep: #020408;
+--color-bg-surface: #0f172a;
 }
