@@ -1,0 +1,26 @@
+HƯỚNG DẪN VẬN HÀNH TU TIÊN ITSM DASHBOARD
+BƯỚC 1: CHUẨN BỊ ĐẠO CỤ
+Đảm bảo máy tính đã cài đặt Node.js version 18 trở lên.
+Mở Terminal và di chuyển vào thư mục dự án.
+BƯỚC 2: KÍCH HOẠT PNPM (TIẾT KIỆM BỘ NHỚ)
+Chạy lệnh:
+   corepack enable
+   corepack prepare pnpm@latest --activate
+Lý do: Pnpm sử dụng cơ chế hard-link, giúp tiết kiệm đáng kể dung lượng ổ cứng so với npm/yarn.
+Rất quan trọng trong môi trường giới hạn storage.
+BƯỚC 3: INSTALL & SEED
+Cài đặt dependencies:
+pnpm install
+Tạo dữ liệu giả lập (Bắt buộc trước khi chạy lần đầu):
+pnpm seed
+-> File data/snapshot.json sẽ được sinh ra chứa thông tin 9 tu sĩ.
+BƯỚC 4: KHỞI ĐỘNG
+Chạy server phát triển:
+   pnpm dev
+Truy cập: http://localhost:3000
+Hệ thống sẽ tự động redirect vào trang tiếng Việt (/vi/dashboard).
+BƯỚC 5: XỬ LÝ SỰ CỐ (TROUBLESHOOTING)
+Lỗi "Module not found": Xóa thư mục node_modules và pnpm-lock.yaml, chạy lại pnpm install.
+Lỗi nền 3D không hiện: Kiểm tra console trình duyệt. Nếu do WebGL, hệ thống sẽ tự chuyển về nền màu tĩnh.
+Lỗi font chữ: Đảm bảo kết nối internet để tải font từ Google Fonts.
+CHÚC ĐẠO HỮU TU LUYỆN TINH THÔNG!

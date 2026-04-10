@@ -1,0 +1,17 @@
+:root {
+  /* Xianxia Dark Theme Palette /
+  --color-bg: #0f172a;       / Slate 900 - Bầu trời đêm /
+  --color-surface: #1e293b;  / Slate 800 - Đá tảng /
+  --color-primary: #38bdf8;  / Sky 400 - Linh khí /
+  --color-secondary: #818cf8;/ Indigo 400 - Huyền lực /
+  --color-accent: #f472b6;   / Pink 400 - Sát khí /
+  --color-text: #f1f5f9;     / Slate 100 - Ánh sáng /
+  --color-muted: #94a3b8;    / Slate 400 - Mờ ảo /
+  --color-border: #334155;   / Slate 700 - Ranh giới */
+  /* Gradients */
+  --gradient-aura: radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.15), transparent 70%);
+  --gradient-sword: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+  /* Fonts /
+  --font-inter: 'Inter', sans-serif;
+  --font-cinzel: 'Cinzel', serif; / Cần load từ Google Fonts nếu dùng */
+}
