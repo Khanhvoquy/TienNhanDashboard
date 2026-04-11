@@ -78,7 +78,7 @@ tickets.push({
   return tickets;
 }
 function main() {
-  console.log('🌌 Đang triệu hồi linh khí tạo dữ liệu giả lập...');
+  console.log(' Đang triệu hồi linh khí tạo dữ liệu giả lập...');
   const users = generateUsers();
   const tickets = generateTickets(users);
   const snapshot: DashboardSnapshot = {
@@ -94,8 +94,8 @@ function main() {
   };
   const outputPath = join(process.cwd(), 'data', 'snapshot.json');
   writeFileSync(outputPath, JSON.stringify(snapshot, null, 2), 'utf-8');
-  console.log(✅ Đã ghi dữ liệu vào ${outputPath});
-  console.log(📊 Tổng số đạo hữu: ${users.length});
-  console.log(📜 Tổng số yêu cầu: ${tickets.length});
+  console.log(' Đã ghi dữ liệu vào ${outputPath}');
+  console.log(' Tổng số đạo hữu: ${users.length}');
+  console.log(' Tổng số yêu cầu: ${tickets.length}');
 }
 main();

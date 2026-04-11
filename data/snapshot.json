@@ -1,0 +1,585 @@
+{
+  "timestamp": "2026-04-11T02:48:29.125Z",
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Lý Phàm Trần",
+      "role": "L2",
+      "currentXp": 2005,
+      "realm": "HOA_THAN",
+      "levelInRealm": 2,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 17,
+        "avgSlaTime": 37.7,
+        "kbContributions": 1,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-2",
+      "name": "Nguyễn Lăng Vân",
+      "role": "L2",
+      "currentXp": 1734,
+      "realm": "NGUYEN_ANH",
+      "levelInRealm": 10,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 25,
+        "avgSlaTime": 40.7,
+        "kbContributions": 6,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-3",
+      "name": "Trần Khổng Minh",
+      "role": "L2",
+      "currentXp": 2055,
+      "realm": "HOA_THAN",
+      "levelInRealm": 3,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 34,
+        "avgSlaTime": 13.9,
+        "kbContributions": 4,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-4",
+      "name": "Lê Sát Thủ",
+      "role": "L1",
+      "currentXp": 1808,
+      "realm": "HOA_THAN",
+      "levelInRealm": 1,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 49,
+        "avgSlaTime": 8.3,
+        "kbContributions": 9,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-5",
+      "name": "Phạm Thanh Phong",
+      "role": "L1",
+      "currentXp": 1928,
+      "realm": "HOA_THAN",
+      "levelInRealm": 2,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 36,
+        "avgSlaTime": 43.5,
+        "kbContributions": 1,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-6",
+      "name": "Hoàng Bích Ngọc",
+      "role": "QA",
+      "currentXp": 1860,
+      "realm": "HOA_THAN",
+      "levelInRealm": 1,
+      "isTamMa": true,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 35,
+        "avgSlaTime": 28.7,
+        "kbContributions": 9,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-7",
+      "name": "Đỗ Huyền Trang",
+      "role": "QA",
+      "currentXp": 266,
+      "realm": "LUYEN_KHI",
+      "levelInRealm": 9,
+      "isTamMa": false,
+      "isDoKiep": true,
+      "stats": {
+        "ticketsResolved": 8,
+        "avgSlaTime": 44.8,
+        "kbContributions": 0,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-8",
+      "name": "Vũ Thiên Long",
+      "role": "DEVOPS",
+      "currentXp": 804,
+      "realm": "KIM_DAN",
+      "levelInRealm": 6,
+      "isTamMa": false,
+      "isDoKiep": false,
+      "stats": {
+        "ticketsResolved": 46,
+        "avgSlaTime": 34.4,
+        "kbContributions": 2,
+        "totalBonus": 0
+      }
+    },
+    {
+      "id": "user-9",
+      "name": "Bùi Tố Tâm",
+      "role": "PM",
+      "currentXp": 1401,
+      "realm": "NGUYEN_ANH",
+      "levelInRealm": 6,
+      "isTamMa": false,
+      "isDoKiep": true,
+      "stats": {
+        "ticketsResolved": 14,
+        "avgSlaTime": 34.3,
+        "kbContributions": 3,
+        "totalBonus": 0
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TK-2024000",
+      "title": "Yêu cầu hỗ trợ #1: Slow query",
+      "assigneeId": "user-3",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T02:19:52.098Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024001",
+      "title": "Yêu cầu hỗ trợ #2: Cần API",
+      "assigneeId": "user-4",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T00:58:39.443Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024002",
+      "title": "Yêu cầu hỗ trợ #3: Cần API",
+      "assigneeId": "user-5",
+      "priority": "LOW",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T02:10:56.269Z",
+      "resolvedAt": "2026-04-11T02:35:01.553Z",
+      "slaGoalHours": 48,
+      "actualHours": 61.3,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024003",
+      "title": "Yêu cầu hỗ trợ #4: Lỗi đăng nhập",
+      "assigneeId": "user-9",
+      "priority": "URGENT",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T00:18:19.304Z",
+      "resolvedAt": "2026-04-11T02:32:59.154Z",
+      "slaGoalHours": 4,
+      "actualHours": 3,
+      "weight": 2
+    },
+    {
+      "id": "TK-2024004",
+      "title": "Yêu cầu hỗ trợ #5: Lỗi đăng nhập",
+      "assigneeId": "user-3",
+      "priority": "URGENT",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T02:22:41.898Z",
+      "resolvedAt": "2026-04-11T02:41:42.851Z",
+      "slaGoalHours": 4,
+      "actualHours": 3.6,
+      "weight": 2
+    },
+    {
+      "id": "TK-2024005",
+      "title": "Yêu cầu hỗ trợ #6: Slow query",
+      "assigneeId": "user-1",
+      "priority": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T01:49:52.002Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024006",
+      "title": "Yêu cầu hỗ trợ #7: Slow query",
+      "assigneeId": "user-4",
+      "priority": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T00:28:56.330Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024007",
+      "title": "Yêu cầu hỗ trợ #8: Slow query",
+      "assigneeId": "user-2",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T00:10:16.950Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024008",
+      "title": "Yêu cầu hỗ trợ #9: Cần API",
+      "assigneeId": "user-5",
+      "priority": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T01:16:55.410Z",
+      "resolvedAt": "2026-04-11T02:31:59.542Z",
+      "slaGoalHours": 48,
+      "actualHours": 64.7,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024009",
+      "title": "Yêu cầu hỗ trợ #10: Slow query",
+      "assigneeId": "user-6",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T02:26:17.826Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024010",
+      "title": "Yêu cầu hỗ trợ #11: Cần API",
+      "assigneeId": "user-8",
+      "priority": "MEDIUM",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T01:42:16.125Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024011",
+      "title": "Yêu cầu hỗ trợ #12: Mất kết nối",
+      "assigneeId": "user-5",
+      "priority": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T01:06:42.351Z",
+      "resolvedAt": "2026-04-11T02:36:29.822Z",
+      "slaGoalHours": 24,
+      "actualHours": 23,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024012",
+      "title": "Yêu cầu hỗ trợ #13: Mất kết nối",
+      "assigneeId": "user-9",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T00:43:55.757Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024013",
+      "title": "Yêu cầu hỗ trợ #14: Cần API",
+      "assigneeId": "user-1",
+      "priority": "URGENT",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T01:54:57.182Z",
+      "slaGoalHours": 4,
+      "weight": 2
+    },
+    {
+      "id": "TK-2024014",
+      "title": "Yêu cầu hỗ trợ #15: Lỗi đăng nhập",
+      "assigneeId": "user-6",
+      "priority": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T02:20:08.811Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024015",
+      "title": "Yêu cầu hỗ trợ #16: Cần API",
+      "assigneeId": "user-7",
+      "priority": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T02:19:06.534Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024016",
+      "title": "Yêu cầu hỗ trợ #17: Cần API",
+      "assigneeId": "user-7",
+      "priority": "LOW",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T00:37:27.237Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024017",
+      "title": "Yêu cầu hỗ trợ #18: Slow query",
+      "assigneeId": "user-4",
+      "priority": "LOW",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T00:19:45.605Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024018",
+      "title": "Yêu cầu hỗ trợ #19: Lỗi đăng nhập",
+      "assigneeId": "user-4",
+      "priority": "URGENT",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T02:32:13.879Z",
+      "slaGoalHours": 4,
+      "weight": 2
+    },
+    {
+      "id": "TK-2024019",
+      "title": "Yêu cầu hỗ trợ #20: Mất kết nối",
+      "assigneeId": "user-8",
+      "priority": "URGENT",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T00:28:30.864Z",
+      "resolvedAt": "2026-04-11T02:37:28.179Z",
+      "slaGoalHours": 4,
+      "actualHours": 2.6,
+      "weight": 2
+    },
+    {
+      "id": "TK-2024020",
+      "title": "Yêu cầu hỗ trợ #21: Mất kết nối",
+      "assigneeId": "user-9",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T02:16:47.508Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024021",
+      "title": "Yêu cầu hỗ trợ #22: Lỗi đăng nhập",
+      "assigneeId": "user-6",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T00:22:36.836Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024022",
+      "title": "Yêu cầu hỗ trợ #23: Slow query",
+      "assigneeId": "user-5",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T00:29:48.853Z",
+      "resolvedAt": "2026-04-11T02:47:38.110Z",
+      "slaGoalHours": 48,
+      "actualHours": 31.3,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024023",
+      "title": "Yêu cầu hỗ trợ #24: Cần API",
+      "assigneeId": "user-2",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T00:07:50.467Z",
+      "resolvedAt": "2026-04-11T02:44:39.900Z",
+      "slaGoalHours": 48,
+      "actualHours": 46.2,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024024",
+      "title": "Yêu cầu hỗ trợ #25: Lỗi đăng nhập",
+      "assigneeId": "user-8",
+      "priority": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T00:10:25.823Z",
+      "resolvedAt": "2026-04-11T02:45:55.579Z",
+      "slaGoalHours": 48,
+      "actualHours": 70.5,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024025",
+      "title": "Yêu cầu hỗ trợ #26: Mất kết nối",
+      "assigneeId": "user-8",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T01:07:29.764Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024026",
+      "title": "Yêu cầu hỗ trợ #27: Cần API",
+      "assigneeId": "user-8",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T00:09:02.538Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024027",
+      "title": "Yêu cầu hỗ trợ #28: Cần API",
+      "assigneeId": "user-1",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T01:07:01.912Z",
+      "resolvedAt": "2026-04-11T02:40:06.948Z",
+      "slaGoalHours": 48,
+      "actualHours": 61.8,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024028",
+      "title": "Yêu cầu hỗ trợ #29: Mất kết nối",
+      "assigneeId": "user-8",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T01:55:35.428Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024029",
+      "title": "Yêu cầu hỗ trợ #30: Slow query",
+      "assigneeId": "user-4",
+      "priority": "HIGH",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T00:36:59.455Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024030",
+      "title": "Yêu cầu hỗ trợ #31: Slow query",
+      "assigneeId": "user-2",
+      "priority": "LOW",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T02:19:17.922Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024031",
+      "title": "Yêu cầu hỗ trợ #32: Mất kết nối",
+      "assigneeId": "user-8",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T01:00:51.882Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024032",
+      "title": "Yêu cầu hỗ trợ #33: Mất kết nối",
+      "assigneeId": "user-1",
+      "priority": "LOW",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T00:17:41.888Z",
+      "resolvedAt": "2026-04-11T02:48:00.036Z",
+      "slaGoalHours": 48,
+      "actualHours": 28.9,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024033",
+      "title": "Yêu cầu hỗ trợ #34: Slow query",
+      "assigneeId": "user-5",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T01:57:22.263Z",
+      "slaGoalHours": 24,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024034",
+      "title": "Yêu cầu hỗ trợ #35: Slow query",
+      "assigneeId": "user-1",
+      "priority": "HIGH",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T02:33:42.701Z",
+      "resolvedAt": "2026-04-11T02:45:50.353Z",
+      "slaGoalHours": 24,
+      "actualHours": 31.9,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024035",
+      "title": "Yêu cầu hỗ trợ #36: Slow query",
+      "assigneeId": "user-7",
+      "priority": "MEDIUM",
+      "status": "CLOSED",
+      "createdAt": "2026-04-11T00:38:36.340Z",
+      "resolvedAt": "2026-04-11T02:33:04.100Z",
+      "slaGoalHours": 48,
+      "actualHours": 32,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024036",
+      "title": "Yêu cầu hỗ trợ #37: Cần API",
+      "assigneeId": "user-1",
+      "priority": "LOW",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T01:34:10.858Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024037",
+      "title": "Yêu cầu hỗ trợ #38: Slow query",
+      "assigneeId": "user-6",
+      "priority": "MEDIUM",
+      "status": "RESOLVED",
+      "createdAt": "2026-04-11T02:24:05.890Z",
+      "resolvedAt": "2026-04-11T02:43:04.837Z",
+      "slaGoalHours": 48,
+      "actualHours": 52.1,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024038",
+      "title": "Yêu cầu hỗ trợ #39: Cần API",
+      "assigneeId": "user-9",
+      "priority": "LOW",
+      "status": "OPEN",
+      "createdAt": "2026-04-11T01:26:59.355Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    },
+    {
+      "id": "TK-2024039",
+      "title": "Yêu cầu hỗ trợ #40: Mất kết nối",
+      "assigneeId": "user-3",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "createdAt": "2026-04-11T01:57:20.111Z",
+      "slaGoalHours": 48,
+      "weight": 1
+    }
+  ],
+  "kbArticles": [],
+  "globalStats": {
+    "totalXpGenerated": 13861,
+    "avgSlaCompliance": 85.5,
+    "activeCultivators": 9
+  }
+}

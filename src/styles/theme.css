@@ -13,7 +13,7 @@
   --gradient-sword: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
   /* Fonts */
   --font-inter: 'Inter', sans-serif;
-  --font-cinzel: 'Cinzel', serif; / Cần load từ Google Fonts nếu dùng */
+  --font-cinzel: 'Cinzel', serif; /* Cần load từ Google Fonts nếu dùng */
 /*Core Colors - Ngũ Hành Sắc */
 --color-bg-deep: #050b14; /* Hư Không */
 --color-bg-surface: #0f172a; /* Đá Tảng */
